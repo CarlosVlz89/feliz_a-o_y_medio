@@ -9,7 +9,7 @@ import { Heart } from "lucide-react";
 
 export default function App() {
   return (
-    <div className="min-h-screen bg-soft-gray text-slate-700 selection:bg-cinderella selection:text-slate-800 relative">
+    <div className="min-h-screen bg-soft-gray text-slate-700 selection:bg-rosewater selection:text-plum-wine relative overflow-hidden">
       {/* Elementos Interactivos Globales */}
       <FloatingHearts />
       <MusicPlayer />
@@ -42,7 +42,7 @@ export default function App() {
       <Letter />
 
       {/* FOOTER (Cierre romántico) */}
-      <footer className="py-12 bg-white border-t border-slate-100 text-center">
+      <footer className="py-12 border-t border-rosewater/20 text-center">
         <div className="max-w-md mx-auto px-4 flex flex-col items-center gap-3">
           <div className="p-3 rounded-full bg-red-50 text-red-500">
             <Heart className="w-5 h-5 fill-red-500 text-red-500 animate-pulse" />

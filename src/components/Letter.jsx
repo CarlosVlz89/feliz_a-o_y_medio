@@ -18,7 +18,7 @@ export default function Letter() {
       <ScrollReveal direction="up">
         <div className="text-center mb-12">
           <h2 className="font-serif text-3xl md:text-5xl font-light text-plum-wine mb-4">
-            Una Carta Para Ti
+            Una carta para ti
           </h2>
           <div className="h-0.5 w-16 bg-rosewater mx-auto rounded-full"></div>
           <p className="text-sm md:text-base text-dusty-rose font-light mt-4 max-w-md mx-auto">
@@ -112,7 +112,7 @@ export default function Letter() {
             <div className="mt-12 pt-8 border-t border-slate-100">
               <div className="text-center mb-6">
                 <span className="text-xs font-semibold uppercase tracking-wider text-copper-rose block mb-2">
-                  Nuestra Memoria en Video
+                  Nuestra memoria en video
                 </span>
                 <p className="text-xs text-dusty-rose font-light max-w-sm mx-auto">
                   compartiendo cada momento juntos
@@ -135,7 +135,7 @@ export default function Letter() {
 
                 {/* Pantalla de Fallback (Placeholder) */}
                 <div className="absolute inset-0 bg-slate-900 flex flex-col items-center justify-center text-center p-6 text-slate-300 hidden">
-                  <span className="text-sm font-semibold tracking-wider text-rosewater uppercase">Video del Aniversario</span>
+                  <span className="text-sm font-semibold tracking-wider text-rosewater uppercase">Video del aniversario</span>
                   <span className="text-xs font-mono text-slate-500 mt-2 break-all">{anniversaryData.videoUrl}</span>
                   <p className="text-[11px] text-slate-400 mt-4 max-w-xs leading-normal">
                     (Coloca tu video local en la ruta del proyecto para reproducirlo aquí)

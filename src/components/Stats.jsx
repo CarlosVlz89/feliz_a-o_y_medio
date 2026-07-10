@@ -29,7 +29,7 @@ export default function Stats() {
       <ScrollReveal direction="up">
         <div className="text-center mb-16">
           <h2 className="font-serif text-3xl md:text-5xl font-light text-plum-wine mb-4">
-            Detalles de Nuestro Viaje
+            Detalles de nuestro viaje
           </h2>
           <div className="h-0.5 w-16 bg-rosewater mx-auto rounded-full"></div>
           <p className="text-sm md:text-base text-dusty-rose font-light mt-4 max-w-md mx-auto">

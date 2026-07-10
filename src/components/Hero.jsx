@@ -71,13 +71,13 @@ export default function Hero() {
           <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-white/95 border border-rosewater/60 shadow-xs mb-5">
             <Heart className="w-4 h-4 text-copper-rose fill-copper-rose animate-beat" />
             <span className="text-xs md:text-sm font-semibold tracking-wider text-copper-rose uppercase">
-              1 Año y Medio Juntos
+              1 año y medio juntos
             </span>
           </div>
 
           {/* Título y Descripción */}
           <h1 className="font-serif text-3xl md:text-5xl lg:text-6xl font-light text-plum-wine tracking-tight leading-tight mb-4">
-            Nuestra Historia de Amor
+            Nuestra historia de amor
           </h1>
           <p className="text-xs md:text-base text-dusty-rose font-light max-w-lg leading-relaxed mb-8">
             Cada segundo a tu lado es un regalo del cielo. Aquí guardo un pedacito de nuestro camino juntos.

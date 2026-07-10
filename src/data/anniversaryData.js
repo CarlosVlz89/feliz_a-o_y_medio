@@ -29,7 +29,7 @@ export const anniversaryData = {
       label: "Risas acumuladas",
       value: "Infinitas",
       iconName: "Smile",
-      description: "Por cada broma interna, cada sonrisa y tus locuras de changuito.",
+      description: "Por cada broma, cada sonrisa y tus locuras de changuito.",
       color: "from-yellow-50 to-amber-100 text-amber-700"
     },
     {
@@ -37,12 +37,12 @@ export const anniversaryData = {
       label: "Nivel de complicidad",
       value: "100%",
       iconName: "Sparkles",
-      description: "Entendernos con solo mirarnos a los ojos durante los ensayos.",
+      description: "Entendernos solo con mirarnos.",
       color: "from-purple-50 to-indigo-100 text-indigo-700"
     },
     {
       id: "cafe-citas",
-      label: "Citas y Funciones",
+      label: "Citas y funciones",
       value: "∞",
       iconName: "Coffee",
       description: "Funciones juntos, ensayos cansados y fines de semana reparadores.",
@@ -146,7 +146,7 @@ export const anniversaryData = {
     {
       id: 16,
       url: "assets/foto16.jpg",
-      title: "Nuestra meta cumplida: El carro",
+      title: "Nuestra meta cumplida: el carro",
       caption: "¡Nuestro primer carro! Un gran logro que compramos con el esfuerzo y trabajo conjunto de los dos. ¡Sí se pudo! 🚗💨"
     },
     {
