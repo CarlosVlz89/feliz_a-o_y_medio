@@ -1,0 +1,90 @@
+/* Importación de Google Fonts: Playfair Display para títulos románticos y Plus Jakarta Sans para el cuerpo */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+
+@import "tailwindcss";
+
+@theme {
+  /* Tipografía elegante y moderna */
+  --font-serif: "Playfair Display", serif;
+  --font-sans: "Plus Jakarta Sans", sans-serif;
+
+  /* Nueva Paleta de Colores: Romantic Rose Palette */
+  --color-copper-rose: #a86a65;
+  --color-dusty-rose: #ab8882;
+  --color-rosewater: #d8a694;
+  --color-china-doll: #e0cbb9;
+  --color-plum-wine: #754b4d;
+  --color-soft-bg: #fcfaf7;
+
+  /* Mapeo de compatibilidad con estilos antiguos */
+  --color-cinderella-light: #fbf9f6;
+  --color-cinderella: #e0cbb9;
+  --color-cinderella-dark: #ab8882;
+  --color-romantic-rose: #d8a694;
+  --color-soft-gray: #fcfaf7;
+}
+
+/* Estilos Globales Adicionales */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: var(--color-soft-bg);
+  color: var(--color-plum-wine);
+}
+
+/* Efectos de Vidrio Esmerilado (Glassmorphism) */
+.glass {
+  background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.35);
+}
+
+.glass-dark {
+  background: rgba(117, 75, 77, 0.1);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+/* Animaciones para el Sobre / Carta */
+.envelope-flap {
+  transform-origin: top;
+  transition: transform 0.6s ease-in-out;
+}
+
+.envelope-open .envelope-flap {
+  transform: rotateX(180deg);
+  z-index: 10;
+}
+
+/* Barra de desplazamiento personalizada y bonita */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #fcfaf7;
+}
+::-webkit-scrollbar-thumb {
+  background: #e0cbb9;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #ab8882;
+}
+
+/* Animación de rotación lenta para el tocadiscos de música */
+@keyframes spin-slow {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.animate-spin-slow {
+  animation: spin-slow 10s linear infinite;
+}
