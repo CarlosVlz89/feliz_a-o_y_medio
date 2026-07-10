@@ -49,7 +49,7 @@ export default function Hero() {
       {/* Imagen de fondo nítida y con colores vivos (con overlay muy suave) */}
       <div className="absolute inset-0 -z-20">
         <img
-          src="/assets/foto7.jpg"
+          src="assets/foto7.jpg"
           alt=""
           className="w-full h-full object-cover"
         />

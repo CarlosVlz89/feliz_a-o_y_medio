@@ -94,7 +94,7 @@ export default function MusicPlayer() {
       {/* Elemento de audio HTML5 oculto */}
       <audio
         ref={audioRef}
-        src="/assets/vengo-del-futuro.mp3"
+        src="assets/vengo-del-futuro.mp3"
         loop
         preload="auto"
       />

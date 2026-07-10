@@ -55,121 +55,121 @@ export const anniversaryData = {
   galleryImages: [
     {
       id: 1,
-      url: "/assets/foto1.jpg",
+      url: "assets/foto1.jpg",
       title: "Compañeros de escena",
       caption: "Nuestros primeros pasos compartidos en las clases y ensayos del Ballet de Jalisco, donde la magia comenzó a surgir."
     },
     {
       id: 2,
-      url: "/assets/foto2.jpg",
+      url: "assets/foto2.jpg",
       title: "Miradas tras bambalinas",
       caption: "Compartir la misma pasión por la danza hace que cada función sea el doble de especial si estoy a tu lado."
     },
     {
       id: 3,
-      url: "/assets/foto3.jpg",
+      url: "assets/foto3.jpg",
       title: "Nuestros primeros días",
       caption: "Los inicios de nuestra historia de novios, aprendiendo a conocernos y a apoyarnos en cada pequeño detalle."
     },
     {
       id: 4,
-      url: "/assets/foto4.jpg",
+      url: "assets/foto4.jpg",
       title: "Citas inolvidables",
       caption: "Escapadas de fin de semana para recargar energías y simplemente disfrutar del tiempo juntos."
     },
     {
       id: 5,
-      url: "/assets/foto5.jpg",
+      url: "assets/foto5.jpg",
       title: "Tu risa contagiosa",
       caption: "Ese sonido que alegra mis días. Gracias por tu infinita paciencia y por ser mi paz en los momentos de estrés."
     },
     {
       id: 6,
-      url: "/assets/foto6.jpg",
+      url: "assets/foto6.jpg",
       title: "En las buenas y en las malas",
       caption: "Apoyándonos mutuamente en temas personales, familiares y laborales. Juntos somos un equipo invencible."
     },
     {
       id: 7,
-      url: "/assets/foto7.jpg",
+      url: "assets/foto7.jpg",
       title: "Caminos de la mano",
       caption: "Caminando juntos por la vida, un paso a la vez, con la seguridad de que sostenemos la mano correcta."
     },
     {
       id: 8,
-      url: "/assets/foto8.jpg",
+      url: "assets/foto8.jpg",
       title: "Complicidad pura",
       caption: "Una conexión única que va más allá de las palabras; con solo mirarnos sabemos exactamente qué piensa el otro."
     },
     {
       id: 9,
-      url: "/assets/foto9.jpg",
+      url: "assets/foto9.jpg",
       title: "Tardes de descanso",
       caption: "Esos pequeños oasis de tranquilidad entre largas jornadas de ensayos y funciones del ballet."
     },
     {
       id: 10,
-      url: "/assets/foto10.jpg",
+      url: "assets/foto10.jpg",
       title: "Mi changuito favorito",
       caption: "Porque tu familia tiene toda la razón: eres mi changuito consentido, y estos besitos lo demuestran todo. 🐒❤️"
     },
     {
       id: 11,
-      url: "/assets/foto11.jpg",
+      url: "assets/foto11.jpg",
       title: "Un año casi cumplido",
       caption: "Llegando al cierre del año con el corazón lleno de agradecimiento por tenerte en mi vida."
     },
     {
       id: 12,
-      url: "/assets/foto12.jpg",
+      url: "assets/foto12.jpg",
       title: "Abrazos de invierno",
       caption: "El mejor refugio contra el frío es perderme en tus brazos y sentir los latidos de tu corazón."
     },
     {
       id: 13,
-      url: "/assets/foto13.jpg",
+      url: "assets/foto13.jpg",
       title: "Celebrando la Navidad",
       caption: "Nuestras primeras fiestas decembrinas juntos, compartiendo el amor y la calidez del hogar."
     },
     {
       id: 14,
-      url: "/assets/foto14.jpg",
+      url: "assets/foto14.jpg",
       title: "Nuevos propósitos",
       caption: "Soñando despiertos sobre el futuro y las metas que queremos conquistar juntos en el nuevo año."
     },
     {
       id: 15,
-      url: "/assets/foto15.jpg",
+      url: "assets/foto15.jpg",
       title: "Amor incondicional",
       caption: "Gracias por enseñarme lo que significa el verdadero apoyo, la comprensión y el amor maduro."
     },
     {
       id: 16,
-      url: "/assets/foto16.jpg",
+      url: "assets/foto16.jpg",
       title: "Nuestra meta cumplida: El carro",
       caption: "¡Nuestro primer carro! Un gran logro que compramos con el esfuerzo y trabajo conjunto de los dos. ¡Sí se pudo! 🚗💨"
     },
     {
       id: 17,
-      url: "/assets/foto17.jpg",
+      url: "assets/foto17.jpg",
       title: "Inspiración en la barra",
       caption: "Verte ensayar con tanta dedicación y entrega me inspira a ser un mejor bailarín y una mejor persona cada día."
     },
     {
       id: 18,
-      url: "/assets/foto18.jpg",
+      url: "assets/foto18.jpg",
       title: "Enfoque y disciplina",
       caption: "Concentrados en el estudio del Ballet de Jalisco, puliendo detalles y compartiendo el arte que tanto amamos."
     },
     {
       id: 19,
-      url: "/assets/foto19.jpg",
+      url: "assets/foto19.jpg",
       title: "Compañeros de vida y danza",
       caption: "Sentados en el piso de linóleo, cansados pero inmensamente felices de compartir este camino profesional y personal."
     },
     {
       id: 20,
-      url: "/assets/foto20.jpg",
+      url: "assets/foto20.jpg",
       title: "Nuestras locuras cotidianas",
       caption: "Haciendo caras divertidas en los descansos. Eres mi changuito, mi compañera y mi amor eterno."
     }
@@ -190,5 +190,5 @@ export const anniversaryData = {
 
   // 5. RUTA DEL VIDEO LOCAL
   // Mapeado a la ruta del video que agregaste
-  videoUrl: "/assets/nuestro-video.mp4"
+  videoUrl: "assets/nuestro-video.mp4"
 };
