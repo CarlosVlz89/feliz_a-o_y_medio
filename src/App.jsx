@@ -9,7 +9,7 @@ import { Heart } from "lucide-react";
 
 export default function App() {
   return (
-    <div className="min-h-screen bg-soft-gray text-slate-700 selection:bg-rosewater selection:text-plum-wine relative overflow-hidden">
+    <div className="min-h-screen bg-soft-gray text-slate-700 selection:bg-rosewater selection:text-plum-wine">
       {/* Elementos Interactivos Globales */}
       <FloatingHearts />
       <MusicPlayer />

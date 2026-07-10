@@ -97,6 +97,7 @@ export default function MusicPlayer() {
         src="assets/vengo-del-futuro.mp3"
         loop
         preload="auto"
+        className="hidden"
       />
     </div>
   );
